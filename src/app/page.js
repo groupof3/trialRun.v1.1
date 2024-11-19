@@ -2,5 +2,11 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 export default function Home() {
-  return <div>hello word</div>;
+  return <div>
+    <details>
+      <summary>See more</summary>
+      Give pull and push successful.
+    </details>
+    </div>;
+
 }
