@@ -6,7 +6,7 @@
     background-image: url(./assets/wallpaperflare.com_wallpaper\ \(20\).jpg);
     background-size: cover;
     background-position: left;
-    animation: slide 60s ease-in-out alternate infinite;
+    animation: slide 45s ease-in-out alternate infinite;
 }
 
 @keyframes slide{
@@ -20,7 +20,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: clamp(60px,70vw,1000px);
+    width: clamp(60px,70vw,500px);
   height: 50vh;
   margin-block: auto;
   display: flex;
@@ -34,17 +34,13 @@
 }
 
 .field {
-    width: clamp(60px,50vw,1000px);
+    width: clamp(60px,50vw,400px);
   font-size: clamp(8px, 4vw, 21px);
   outline: none;
   border: none;
   background: black;
   border-radius: .3rem;
   padding: 0.5rem;
-}
-
-.link{
-
 }
 
 .button {
