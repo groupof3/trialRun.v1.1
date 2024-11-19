@@ -1,0 +1,67 @@
+.body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./assets/wallpaperflare.com_wallpaper\ \(20\).jpg);
+    background-size: cover;
+    background-position: left;
+    animation: slide 40s ease-in-out alternate infinite;
+}
+
+@keyframes slide{
+    to{
+        background-position: center;
+    }
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: clamp(60px,70vw,1000px);
+  height: 50vh;
+  margin-block: auto;
+  display: flex;
+  justify-content: center;
+  padding-inline: 0.3rem;
+  flex-direction: column;
+  gap: 0.4rem;
+  border-radius: 1rem;
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.589), transparent);
+}
+
+.field {
+    width: clamp(60px,50vw,1000px);
+  font-size: clamp(8px, 4vw, 21px);
+  outline: none;
+  border: none;
+  background: black;
+  border-radius: .3rem;
+  padding: 0.5rem;
+}
+
+.link{
+
+}
+
+.button {
+    font-size: clamp(8px, 4vw, 21px);
+  border: none;
+  border-radius: 0.3rem;
+  padding-inline: 1rem;
+  padding-block: 0.3rem;
+  margin-inline: auto;
+  background: linear-gradient(
+    45deg,
+    rgb(0, 133, 221),
+    rgba(0, 145, 145, 0.555)
+  );
+  transition: all .3s ease-in-out;
+}
+
+.button:hover {
+    filter: grayscale(0);
+  filter: drop-shadow(0px 0px 8px black);
+}
