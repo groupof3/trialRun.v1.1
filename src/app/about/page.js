@@ -6,6 +6,12 @@ const page = () => {
         git add <p>
          Our new page route.
         </p>
+
+        <p>
+            <button>Increment +</button>
+            0
+            <button>Decrement -</button>
+        </p>
     </div>
   )
 }
