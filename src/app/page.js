@@ -4,7 +4,7 @@ import styles from "./page.module.css";
 export default function Home() {
   return <div>
     <details>
-      <summary>See more</summary>
+      <summary className={styles.emma}>See more</summary>
       Give pull and push successful.
     </details>
     </div>;
